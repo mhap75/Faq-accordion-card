@@ -5,9 +5,70 @@
 body {
     font-family: "Kumbh Sans", sans-serif;
     font-size: 12px;
+    font-weight: 400;
+    color: $Verydarkdesaturatedblue;
     background: $Softblue;
     background: -moz-linear-gradient(0deg, $Softblue 0%, $Softviolet 100%);
     background: -webkit-linear-gradient(0deg, $Softblue 0%, $Softviolet 100%);
     background: linear-gradient(0deg, $Softblue 0%, $Softviolet 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#6565e7",endColorstr="#af67e9",GradientType=1);
+    display: grid;
+    place-content: center;
+}
+
+h3,
+h4,
+h5,
+h6,
+p {
+    font-weight: inherit;
+    color: $Darkgrayishblue;
+    margin-block: 0.3rem;
+}
+
+h {
+    &2 {
+        font-size: 2.2rem;
+    }
+    &4 {
+        font-size: 1.1rem;
+        color: $Verydarkgrayishblue;
+    }
+}
+
+.card {
+    background-color: $white;
+    max-width: fit-content;
+    padding: 3.5rem 4.5rem;
+    border-radius: 20px;
+    box-shadow: 0 35px 30px -10px #2b272761;
+
+    ul {
+        margin-top: 1.5rem;
+        list-style-position: none;
+        min-width: 400px;
+        > li > p {
+            display: none;
+        }
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            &:hover {
+                * {
+                    color: $Softred;
+                }
+            }
+        }
+        img {
+            width: auto;
+        }
+    }
+
+    .spacer {
+        background-color: $Lightgrayishblue;
+        height: 1px;
+        width: 100%;
+        margin-block: 1rem;
+    }
 }
