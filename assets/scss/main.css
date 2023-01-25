@@ -184,6 +184,7 @@ h4 {
   max-width: -webkit-fit-content;
   max-width: -moz-fit-content;
   max-width: fit-content;
+  height: 420px;
   padding: 3.5rem 4.5rem;
   border-radius: 20px;
   box-shadow: 0 35px 30px -10px rgba(43, 39, 39, 0.3803921569);
@@ -191,7 +192,7 @@ h4 {
 .card ul {
   margin-top: 1.5rem;
   list-style-position: none;
-  min-width: 400px;
+  width: 400px;
 }
 .card ul > li > p {
   display: none;
@@ -212,4 +213,12 @@ h4 {
   height: 1px;
   width: 100%;
   margin-block: 1rem;
+}
+
+.acordionToggleBtn {
+  transition: 0.7s ease;
+}
+
+.rotated {
+  transform: rotate(180deg);
 }/*# sourceMappingURL=main.css.map */

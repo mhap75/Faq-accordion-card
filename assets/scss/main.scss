@@ -39,6 +39,7 @@ h {
 .card {
     background-color: $white;
     max-width: fit-content;
+    height: 420px;
     padding: 3.5rem 4.5rem;
     border-radius: 20px;
     box-shadow: 0 35px 30px -10px #2b272761;
@@ -46,7 +47,7 @@ h {
     ul {
         margin-top: 1.5rem;
         list-style-position: none;
-        min-width: 400px;
+        width: 400px;
         > li > p {
             display: none;
         }
@@ -71,4 +72,12 @@ h {
         width: 100%;
         margin-block: 1rem;
     }
+}
+
+.acordionToggleBtn {
+    transition: 0.7s ease;
+}
+
+.rotated {
+    transform: rotate(180deg);
 }
