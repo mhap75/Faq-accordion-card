@@ -152,4 +152,7 @@ img {
 body {
   font-family: "Kumbh Sans", sans-serif;
   font-size: 12px;
+  background: hsl(240deg, 73%, 65%);
+  background: linear-gradient(0deg, hsl(240deg, 73%, 65%) 0%, hsl(273deg, 75%, 66%) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#6565e7",endColorstr="#af67e9",GradientType=1);
 }/*# sourceMappingURL=main.css.map */
