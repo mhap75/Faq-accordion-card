@@ -184,21 +184,19 @@ h4 {
   max-width: -webkit-fit-content;
   max-width: -moz-fit-content;
   max-width: fit-content;
-  height: -webkit-max-content;
-  height: -moz-max-content;
-  height: max-content;
+  min-height: -webkit-max-content;
+  min-height: -moz-max-content;
+  min-height: max-content;
   padding: 3.5rem 0;
   border-radius: 20px;
   box-shadow: 0 35px 30px -10px rgba(43, 39, 39, 0.3803921569);
   position: relative;
   display: grid;
   grid-template-columns: 1fr 1fr;
-}
-.card .bg {
-  position: absolute;
-  left: -10%;
-  bottom: -30%;
-  transform: translateX(-50%);
+  background-image: url("../image/bg-pattern-desktop.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right 34.5rem top 70%;
 }
 .card ul {
   margin-top: 1.5rem;
@@ -245,7 +243,7 @@ h4 {
   height: 100%;
 }
 .card .leftSide .banner img {
-  transform: translateX(-17%);
+  transform: translateX(-16%);
 }
 
 .acordionToggleBtn {
