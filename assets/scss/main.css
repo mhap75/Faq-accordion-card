@@ -206,6 +206,7 @@ h4 {
 }
 .card ul > li > p {
   display: none;
+  max-width: 50ch;
 }
 .card ul .header {
   display: flex;
