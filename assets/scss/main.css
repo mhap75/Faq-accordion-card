@@ -159,6 +159,7 @@ body {
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#6565e7",endColorstr="#af67e9",GradientType=1);
   display: grid;
   place-content: center;
+  padding-inline: 3rem;
 }
 
 h3,
@@ -201,7 +202,7 @@ h4 {
 .card ul {
   margin-top: 1.5rem;
   list-style-position: none;
-  width: max(25dvw, 300px);
+  width: 100%;
 }
 .card ul > li > p {
   display: none;
@@ -252,4 +253,45 @@ h4 {
 
 .rotated {
   transform: rotate(180deg);
+}
+
+@media (max-width: 1000px) {
+  .card {
+    background-position: right 30rem top 70%;
+  }
+}
+@media (max-width: 900px) {
+  .card {
+    background-position: center top 0;
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+    background-image: url("../image/bg-pattern-mobile.svg");
+    background-size: 70%;
+    max-width: 400px;
+    margin-top: 10rem;
+    margin-bottom: 2rem;
+  }
+  .card .leftSide {
+    justify-content: center;
+    display: flex;
+  }
+  .card .leftSide .banner {
+    position: absolute;
+    top: -53%;
+    max-width: 70%;
+  }
+  .card .leftSide .banner img {
+    transform: translate(0);
+  }
+  .card .rightSide {
+    padding-inline: 2rem;
+    margin-top: 7rem;
+    z-index: 1000;
+  }
+  .card .rightSide h2 {
+    text-align: center;
+  }
+  .leftSide .boxIllustration {
+    display: none;
+  }
 }/*# sourceMappingURL=main.css.map */
