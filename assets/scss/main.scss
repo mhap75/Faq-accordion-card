@@ -39,10 +39,11 @@ h {
 .card {
     background-color: $white;
     max-width: fit-content;
-    height: 420px;
+    height: 50dvh;
     padding: 3.5rem 4.5rem;
     border-radius: 20px;
     box-shadow: 0 35px 30px -10px #2b272761;
+    overflow: hidden;
 
     ul {
         margin-top: 1.5rem;

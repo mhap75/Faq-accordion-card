@@ -184,10 +184,11 @@ h4 {
   max-width: -webkit-fit-content;
   max-width: -moz-fit-content;
   max-width: fit-content;
-  height: 420px;
+  height: 50dvh;
   padding: 3.5rem 4.5rem;
   border-radius: 20px;
   box-shadow: 0 35px 30px -10px rgba(43, 39, 39, 0.3803921569);
+  overflow: hidden;
 }
 .card ul {
   margin-top: 1.5rem;
