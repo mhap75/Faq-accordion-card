@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://www.frontendmentor.io/solutions/interactive-rating-component-mDiLFsPc7S)
-- [Live Site URL](https://funny-pegasus-60c20f.netlify.app/)
+- [Solution URL](https://www.frontendmentor.io/solutions/faq-accordion-card-czglOVCYSr)
+- [Live Site URL](https://delicate-mandazi-1af8e3.netlify.app/)
 
 ## My process
 
